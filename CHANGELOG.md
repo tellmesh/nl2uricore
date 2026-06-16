@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-06-16
+
+### Docs
+- Update README.md
+
+### Test
+- Update tests/__pycache__/test_generator.cpython-313-pytest-9.1.0.pyc
+
+### Other
+- Update dist/nl2uricore-0.1.1-py3-none-any.whl
+- Update dist/nl2uricore-0.1.1.tar.gz
+- Update src/nl2uricore.egg-info/PKG-INFO
+
 ## [0.1.1] - 2026-06-16
 
 ### Docs
