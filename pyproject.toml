@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nl2uricore"
+name = "nl2uricontrol"
 version = "0.1.3"
 description = "Generate UriPack Markpact files from natural language prompts and URI prefixes."
 readme = "README.md"
@@ -12,14 +12,14 @@ license = "Apache-2.0"
 dependencies = ["PyYAML>=6.0"]
 
 [project.scripts]
-nl2uricore = "nl2uricore.cli:main"
+nl2uricontrol = "nl2uricontrol.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["nl2uricore*"]
+include = ["nl2uricontrol*"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

@@ -7,7 +7,7 @@ from .generator import GenerationRequest, MarkpactGenerationError, generate_mark
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="nl2uricore", description="Generate UriPack Markpact files from NL prompts.")
+    parser = argparse.ArgumentParser(prog="nl2uricontrol", description="Generate UriPack Markpact files from NL prompts.")
     sub = parser.add_subparsers(dest="command", required=True)
 
     gen = sub.add_parser("generate", help="Generate a *.markpact.md file.")

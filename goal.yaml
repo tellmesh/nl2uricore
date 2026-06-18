@@ -13,7 +13,7 @@
 
 version: '1.0'
 project:
-  name: nl2uricore
+  name: nl2uricontrol
   type:
   - python
   description: Generate UriPack Markpact files from natural language prompts and URI
@@ -31,7 +31,7 @@ versioning:
 git:
   commit:
     strategy: conventional
-    scope: nl2uricore
+    scope: nl2uricontrol
     abstraction_level: auto
     abstraction_levels:
       high: '{type}({domain}): {benefit}'
@@ -225,7 +225,7 @@ strategies:
   python:
     test: python -m pytest tests/ -q
     build: python -m build
-    publish: twine upload dist/nl2uricore-{version}*
+    publish: twine upload dist/nl2uricontrol-{version}*
     publish_enabled: false
     dependencies:
       file: requirements.txt

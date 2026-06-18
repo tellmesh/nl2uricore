@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from nl2uricore.generator import GenerationRequest, generate_markpact
+from nl2uricontrol.generator import GenerationRequest, generate_markpact
 
 
 def test_generate_cache_pack_without_llm():

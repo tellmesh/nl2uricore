@@ -1,2 +1,0 @@
-[console_scripts]
-nl2uricore = nl2uricore.cli:main
