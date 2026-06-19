@@ -11,6 +11,9 @@ requires-python = ">=3.10"
 license = "Apache-2.0"
 dependencies = ["PyYAML>=6.0"]
 
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
 [project.scripts]
 nl2uricontrol = "nl2uricontrol.cli:main"
 
